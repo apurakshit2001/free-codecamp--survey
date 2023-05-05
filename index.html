@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles2.css">
+
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+
+  <p id="description">Thank you for taking the time to help us improve the platform.</p>
+
+  </head>
+
+  <body>
+    <main>
+  
+ 
+
+  <br>
+
+  <section id="blue">
+  <form id="survey-form">
+
+
+  <div id="name-email">
+
+    
+      <label for="name" id="name-label">Name:</label>
+      <!-- <br> -->
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <!-- <br> <br> -->
+
+      <label for="email" id="email-label">Email:</label>
+      <!-- <br> -->
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+  </div>
+
+  <!-- <br> <br> -->
+
+  <div id="age">
+
+    <label for="number" id="number-label">Age <i>(Optional)</i>:</label>
+    <!-- <br> -->
+    <input type="number" id="number" name="number" min="1" max="100" step="1"
+      placeholder="Enter a number between 0 and 100">
+
+  </div>
+
+  <!-- <br> <br>/ -->
+
+  <div>
+
+    <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
+
+    <!-- <br><br> -->
+
+    <select id="dropdown" name="dropdown">
+
+      <option value="disabled selected hidden">Select Your Current Role</option>
+
+
+      <option value="option1">Student</option>
+      <option value="option2">Full Time Job</option>
+      <option value="option3">Full Time Learner</option>
+      <option value="option4">Preffer Not To Say</option>
+      <option value="option5">Other</option>
+    </select>
+
+  </div>
+
+  <br> <br>
+
+  <section id="radio-group">
+
+    
+
+      <label for="radio-group" id="radio-group-label">Would you recommend freeCodeCamp to a friend?</label>
+
+    <br><br>
+
+      <input type="radio" id="radio-option1" name="radio-group" value="option1">
+      <label for="radio-option1">Definitely</label>
+
+    <br>
+
+    <input type="radio" id="radio-option2" name="radio-group" value="option2">
+    <label for="radio-option2">Maybe</label>
+
+    <br>
+
+    <input type="radio" id="radio-option3" name="radio-group" value="option3">
+    <label for="radio-option2">Not sure</label>
+
+
+  </section>
+
+  <br> <br>
+
+  <section>
+
+  <label for="checkbox-group" id="checkbox-group-label">
+    What would you like to see improved?  <i>(Check all that apply)</i>
+  </label>
+
+  <br><br>
+
+    <div>
+
+  <input type="checkbox" id="checkbox-option1" name="checkbox-group" value="option1">
+  <label for="checkbox-option1">Front-end Projects</label>
+  <br>
+  <input type="checkbox" id="checkbox-option2" name="checkbox-group" value="option2">
+  <label for="checkbox-option2">Back-end Projects</label>
+  <br>
+  <input type="checkbox" id="checkbox-option3" name="checkbox-group" value="option3">
+  <label for="checkbox-option3">Data Visualization</label>
+  <br>
+  <input type="checkbox" id="checkbox-option4" name="checkbox-group" value="option4">
+  <label for="checkbox-option4">Open Source Community</label>
+  <br>
+  <input type="checkbox" id="checkbox-option5" name="checkbox-group" value="option5">
+  <label for="checkbox-option5">Gitter help rooms</label>
+  <br>
+  <input type="checkbox" id="checkbox-option6" name="checkbox-group" value="option6">
+  <label for="checkbox-option6">Videos</label>
+  <br>
+  <input type="checkbox" id="checkbox-option7" name="checkbox-group" value="option7">
+  <label for="checkbox-option7">City Meetups</label>
+  <br>
+  <input type="checkbox" id="checkbox-option8" name="checkbox-group" value="option8">
+  <label for="checkbox-option8">Wiki</label>
+  <br>
+  <input type="checkbox" id="checkbox-option9" name="checkbox-group" value="option9">
+  <label for="checkbox-option9">Forum</label>
+  <br>
+  <input type="checkbox" id="checkbox-option10" name="checkbox-group" value="option10">
+  <label for="checkbox-option10">Additional Courses</label>
+
+
+
+</section>
+
+  <br> <br>
+
+  <label for="comments" id="comments-label">
+    Any comments or suggestions?
+  </label>
+  <br>
+  <textarea id="comments" name="comments" placeholder="Enter your comments"></textarea>
+
+  <br> <br>
+
+  <button type="submit" id="submit" onclick="alert('Wellcome')">Submit</button formtarget="blank">
+
+
+  <!-- Other form elements will go here -->
+
+
+  </form>
+</section>
+</main>
+  </body>
+
+</html>
